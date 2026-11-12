@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Build & Dist
+build/
+dist/
+dist_package/
+
+# Output & Logs
+output/
+*.log
+SSD_Firmware_Studio.log
+*.tmp
+
+# Temporary diagnostic dumps
+id.bin
+smart.bin
+smi_fid.bin
+smi_flash_id.txt
+jm_fid.txt
+
+# Redundant archives (unpacked tools and .bin firmwares are tracked)
+*.rar
+*.zip
+*.7z
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

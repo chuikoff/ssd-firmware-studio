@@ -1,0 +1,3 @@
+v0.382a
+OS: 10.0 build 26200 
+Drive   : 3(USB)

@@ -1,0 +1,68 @@
+0.1a	- initial
+0.2a	- support for windows 10 nvme driver (stornvme)
+0.21a	- decode imft/3d flash type
+0.22a	- 64L & 96L imft nand was wrong named as 32L
+0.221a	- open report request
+0.222t0	- sm2260/62 parameters decode
+	- sm2260/62 telemetry decode
+	- sm2260/62 BB & EC list binary save
+	- standart nvme smart decode
+	- rename standart nvme smart: smi_nvme_smart.bin to nvme_smart.bin
+	- new flash type decode
+0.223a	- full support connection via jms583
+0.224t1	- test support for asm/rtl
+0.224a	- 2263en detect
+	- 2262en/b1 detect
+	- EC list decode
+0.225a	- CEL decode
+	- skip output empty CEL
+	- nvme1.3 smart attributes
+0.226a	- extend EC list len
+	- more telemetry params decode for 2262+
+	- improve (but not completely) buffer size info decode for 2262+
+	- improve smart and telemetry compatibility with stornvme driver
+0.227a	- more telemetry params decode for 2262en+
+	- 'n' - optional s/n output
+	- preliminary support for 2267/2270
+	- remove wrong page size info for YMTC nand
+	- add N28A nand detect
+0.228a	- decode "Critical Warning" nvme smart attribute
+	- update FID decoder
+	- preliminary support for 2264
+0.23a	- support for asm2362/4 usb-nvme bridge connection (need new firmware for 2362)
+	- bypass adata S50Lite C/K degrees smart bug
+0.231a	- skip FID output for bank with (0xFF) FID
+	- "press any key" request also when compatible ssd not detected
+	- fixed size truncate for >2TB
+0.24a	- improve dram buffer size info decode for 2262[en]/2263en/2267
+	- output HMB info + status
+	- output OPROM status for model w/dram buffer
+	- output flash block type info for model w/dram buffer [smi_nvme_flash_id_ec.txt]
+	- output pages/block, bit per cell for 2263xt
+	- output sm2263xt telemetry
+	- 'w' - save system block for 2263xt
+	- fix die density for hynix-3d
+0.241a	- improve ymtc nand fid decode
+0.25a	- fix sm2265 support
+	- show unknown telemetry params
+	- fix intel 144L nand
+0.26a	- fix EC array size for model w/dram buffer
+	- update FID decoder
+	- support for rtl9210[b] bridge connection (need fw.1.27+)
+0.27a	- try to support sm2269xt
+0.271a	- skip empty telemetry output for 2263xt
+	- update FID decoder
+	- try to fix detect new sm2262en/sm2264 as rom mode
+	- set btype size to 32k (64k dont read with some conditions)
+0.272a	- fix detect sm2264
+	- update FID decoder
+	- try to fix solidigm p41plus detect as buferless
+0.273a	- detect sm2268xt
+	- update FID decoder
+0.274a	- detect sm2508
+	- update FID decoder
+0.2741a	- some fix for sm2508
+0.275a	- detect sm8366
+	- fix wrong "rom mode" for sm8366
+	- detect sm2504
+	- update FID decoder

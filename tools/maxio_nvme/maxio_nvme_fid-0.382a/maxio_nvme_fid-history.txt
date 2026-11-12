@@ -1,0 +1,35 @@
+0.1a	- 1st release
+0.2a	- rename to maxio_nvme_fid
+	- read FIDs
+	- support for rtl9210[b] bridge connection (need fw.1.27+)
+	- show NAND string, NAND MaxPE cycles &  NAND Freq
+	- read erase counter array (maxio_nvme_ec.bin)
+0.3	- fid decoder update
+	- print id info from both, vuc & logs, if exist
+	- skip output unreaded data
+	- support map1602
+	- output some nand info for map100x/120x (not 160x)
+	- fid list is limited to 8 for map160x
+0.31	- fid decoder update
+0.32	- clarification for ext.smart bad blocks
+	- fid decoder update - add ymtc nand model name, include latest x3-9060 & x3-9070
+0.33	- "m" options - save only smart+ext.smart
+	- fid decoder update
+	- limit fid list to ce0 only for map1602 due to a possible hang
+0.34	- fid decoder update
+0.35	- output some nand info for map160x
+	- fid decoder update
+0.36	- preliminary support for locked map160x - Firmware id string output
+	- fid decoder update
+0.361	- output slc cache settings for map1202
+	- fix ext.smart for map1602/w10 stornvme
+0.362	- fid decoder update - fix for intel/solidigm 192L
+0.363	- fid decoder update - fix b57t detect
+0.37	- fid decoder update
+	- detect pk20231(map1602)
+0.38	- fid decoder update
+	- detect hkp1030(map1602)
+	- detect map1202/gdp mode
+	- read fid/pp in gdp mode for map1202
+0.381	- fix info output for some map1202
+0.382	- more fix info output for some map1202

@@ -1,0 +1,4 @@
+v0.275a
+OS: 10.0 build 26200 
+Drive     : 3(USB)
+FID data unavailable(0) - possible incompatible nvme driver

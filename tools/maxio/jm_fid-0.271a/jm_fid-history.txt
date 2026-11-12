@@ -1,0 +1,20 @@
+0.2a	- 1st release
+0.21a	- detect DM9343 as mas0902
+0.22a	- warning: don't use 0.21 with some "DM9343" mas0902 - it may instantly switch to rom mode
+	- fid detect for all "DM9343" disabled
+	- update gdp8215.bin for better compatible
+	- read "NAND string" for mas0902
+0.23a	- enable try to read nand parameter page for mas0902
+	- full decode nand parameter page to file
+	- short decode nand parameter page to screen
+	- remove wrong page size info for YMTC nand
+	- fix: lost last char of nand string from v0.22
+0.24a	- add N28A
+0.25a	- update FID decoder
+0.251a	- fix open report file error at exit
+0.26a	- improve ymtc nand fid decode
+	- add B47r detection
+0.27a	- update FID decoder
+	- detect MAS1102, without fid reading
+0.271a	- update FID decoder
+	- detect DM1102 as mas1102

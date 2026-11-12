@@ -1,0 +1,8 @@
+v0.845a
+Drive: 3(USB)
+OS: 10.0 build 26200 
+Model: TOSHIBA THNSNK128GVN8                   
+Fw   : K8AS4102
+Size : 122104 MB
+IOCtl: ReadSysinfo13 failed 0x79!
+Phison not detected(2) - Exit!

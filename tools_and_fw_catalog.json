@@ -1,0 +1,1696 @@
+{
+  "smi_flash_id": [
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9756",
+      "label": "smi_flash_id-v0.37a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9750",
+      "label": "smi_flash_id-v0.372a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9757",
+      "label": "smi_flash_id-v0.49a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9751",
+      "label": "smi_flash_id-v0.51a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9759",
+      "label": "smi_flash_id-v0.554a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9752",
+      "label": "smi_flash_id-v0.556a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10074",
+      "label": "smi_flash_id-v0.56a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10115",
+      "label": "smi_flash_id-v0.561a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10118",
+      "label": "smi_flash_id-v0.562a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10117",
+      "label": "smi_flash_id-v0.563a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10466",
+      "label": "smi_flash_id-v0.564a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10572",
+      "label": "smi_flash_id-v0.565a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=11027",
+      "label": "smi_flash_id-v0.566a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=11051",
+      "label": "smi_flash_id-v0.567a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13383",
+      "label": "smi_flash_id-v0.568a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13386",
+      "label": "smi_flash_id-v0.5681a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=14905",
+      "label": "smi_flash_id-v0.569a.rar"
+    }
+  ],
+  "smi_nvme_flash_id": [
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=11555",
+      "label": "smi_nvme_flash_id-0.22a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9754",
+      "label": "smi_nvme_flash_id-0.224a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9755",
+      "label": "smi_nvme_flash_id-0.225a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9758",
+      "label": "smi_nvme_flash_id-0.226a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9753",
+      "label": "smi_nvme_flash_id-0.227a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9790",
+      "label": "smi_nvme_flash_id-0.228a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9820",
+      "label": "smi_nvme_flash_id-0.23a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10065",
+      "label": "smi_nvme_flash_id-0.231a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10116",
+      "label": "smi_nvme_flash_id-0.24a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10114",
+      "label": "smi_nvme_flash_id-0.241a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10151",
+      "label": "smi_nvme_flash_id-0.25a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10414",
+      "label": "smi_nvme_flash_id-0.26a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10465",
+      "label": "smi_nvme_flash_id-0.27a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10682",
+      "label": "smi_nvme_flash_id-0.272a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12732",
+      "label": "smi_nvme_flash_id-0.273a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13361",
+      "label": "smi_nvme_flash_id-0.274a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13360",
+      "label": "smi_nvme_flash_id-0.2741a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13670",
+      "label": "smi_nvme_flash_id-0.275a.rar"
+    }
+  ],
+  "phison_flash_id": [
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9373",
+      "label": "phison_flash_id73.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9374",
+      "label": "phison_flash_id75.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=11557",
+      "label": "phison_flash_id77.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9372",
+      "label": "phison_flash_id772.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9368",
+      "label": "phison_flash_id777.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9371",
+      "label": "phison_flash_id785.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9369",
+      "label": "phison_flash_id787.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9370",
+      "label": "phison_flash_id8.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9441",
+      "label": "phison_flash_id81.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9560",
+      "label": "phison_flash_id82.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9788",
+      "label": "phison_flash_id83.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9947",
+      "label": "phison_flash_id84.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10125",
+      "label": "phison_flash_id841.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10400",
+      "label": "phison_flash_id842.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10480",
+      "label": "phison_flash_id843.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=11028",
+      "label": "phison_flash_id844.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=14811",
+      "label": "phison_flash_id845.rar"
+    }
+  ],
+  "phison_s11_flasher": [
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=11224",
+      "label": "s11-flasher0.44.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9787",
+      "label": "s11-flasher2.0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9789",
+      "label": "s11-flasher2.11.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9785",
+      "label": "s11-flasher2.12.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9786",
+      "label": "s11-flasher2.13.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10851",
+      "label": "s11-flasher2.14.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10852",
+      "label": "s11-flasher2.15.rar"
+    }
+  ],
+  "phison_e7_flash_id": [
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9567",
+      "label": "phison_e7_flash_id-0.04-test.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9572",
+      "label": "phison_e7_flash_id-0.1a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9570",
+      "label": "phison_e7_flash_id-0.11a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9568",
+      "label": "phison_e7_flash_id-0.12a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9571",
+      "label": "phison_e7_flash_id-0.13a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9578",
+      "label": "phison_e7_flash_id-0.14a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9608",
+      "label": "phison_e7_flash_id-0.15a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9612",
+      "label": "phison_e7_flash_id-0.16a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9874",
+      "label": "phison_e7_flash_id-0.18a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10063",
+      "label": "phison_e7_flash_id-0.19a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10420",
+      "label": "phison_e7_flash_id-0.2a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13671",
+      "label": "phison_e7_flash_id-0.3a.rar"
+    }
+  ],
+  "maxio_flash_id": [
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10931",
+      "label": "jm_fid-0.2a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10932",
+      "label": "jm_fid-0.21a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10925",
+      "label": "jm_fid-0.22a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10918",
+      "label": "jm_fid-0.23a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10928",
+      "label": "jm_fid-0.24a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10920",
+      "label": "jm_fid-0.25a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=11559",
+      "label": "jm_fid-0.26a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10926",
+      "label": "jm_fid-0.27a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13316",
+      "label": "jm_fid-0.271a.rar"
+    }
+  ],
+  "maxio_nvme_flash_id": [
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10684",
+      "label": "maxio_nvme_fid-0.1a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10685",
+      "label": "maxio_nvme_fid-0.2a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10687",
+      "label": "maxio_nvme_fid-0.3a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10683",
+      "label": "maxio_nvme_fid-0.31a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10686",
+      "label": "maxio_nvme_fid-0.32a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=11055",
+      "label": "maxio_nvme_fid-0.33a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=11065",
+      "label": "maxio_nvme_fid-0.34a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12640",
+      "label": "maxio_nvme_fid-0.35a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12754",
+      "label": "maxio_nvme_fid-0.36a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13127",
+      "label": "maxio_nvme_fid-0.361a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13185",
+      "label": "maxio_nvme_fid-0.362a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13396",
+      "label": "maxio_nvme_fid-0.37a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=14287",
+      "label": "maxio_nvme_fid-0.381a.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=14804",
+      "label": "maxio_nvme_fid-0.382a.rar"
+    }
+  ],
+  "maxio_mas0902_mptool": [
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=14372",
+      "label": "MAS0902-V2-20260104.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12741",
+      "label": "A2-B0KB-0x39-A.0.09.019-SN05267-V2.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=11147",
+      "label": "MAS0902-L06B-A.0.08.017-SN01393.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=15021",
+      "label": "MAS0902-B16-0x39-A0.09.019-H210101a-V2.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10860",
+      "label": "Maxio-MAS0902-MAS0901-Tool-A.0.07.006_B17A.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=15020",
+      "label": "MAS0902-B17-0x39-A0.09.019-H210101a-V2.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10858",
+      "label": "MAS0902-B16AB17A-D2.0-V1.001.000-A.0.09.019-FT2000.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12915",
+      "label": "A2-B27A-0x39-A.0.09.019-H200907a-V2.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12740",
+      "label": "A2-B27A-0x39-D2.0-A.0.09.019-H210122a-V2.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=11148",
+      "label": "A2-Bics3-0x39-A.0.09.021-H200713a-V2.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12739",
+      "label": "A2-Bics4-0x39-A.0.09.019-H200630a-V2.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12917",
+      "label": "A2-Bics4-0x39-A.0.09.019-H200820a-V2.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10856",
+      "label": "PKG-A2-X-N18-C2.1-SN3421-V2.000.002-A.09.018_V2.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12914",
+      "label": "A2-N18A-0x39-A.0.09.019-H200430a_V2.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10857",
+      "label": "Maxio-MAS0902-MAS0901-Tool-A.0.07.022_N18A.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10859",
+      "label": "Maxio-MAS0902-MAS0901-Tool-A.0.07.022b_N18A.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12918",
+      "label": "A2-N28A-0x39-A.0.09.019-SN08131-V2.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13293",
+      "label": "Maxio_MAS0902-MAS0901_Tool_A.0.07.006_HYV4.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13760",
+      "label": "A2X-SSV4-PKG-V1.02-T190807-M8V31_ResetIC.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12897",
+      "label": "A2-YMTC-0x39-A0.09.017c-SN08413-V2.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12899",
+      "label": "A2-YMTC-0x39-A.0.09.019(RC16)-H200807a-V2.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=14085",
+      "label": "A2-YMTC-0x39-A0.09.019a-SN08413-V2_Tigo.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12898",
+      "label": "A2-YMTC-0x39-A.0.09.023d-SN07005-V2.rar"
+    }
+  ],
+  "smi_sm2258xt_mptool": [
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9799",
+      "label": "SM2258XT_MPP0617B_FWP0617B_RDTP0620A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9415",
+      "label": "SM2258XT_3D_MPP1116A_FWP1117A_RDTP1107A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=8612",
+      "label": "SM2258XTMPToolP1116A_Micron_B0KB.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9334",
+      "label": "SM2258XT_B16&#038;B17_PKGS0513A_FWS0424A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9636",
+      "label": "SM2258XT_SNK1Y_PKGS0110A_FWS0115A.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9328",
+      "label": "SM2258XT_SNK1Y_PKGS0110A_FWS0115A(fixRDT).rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9332",
+      "label": "SM2258XT_SNK1Z-MLC-8Die_PKGS0813A_FWS0729A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9635",
+      "label": "SM2258XT_SNK1Z_PKGQ0504A_FWQ0501B.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9637",
+      "label": "SM2258XT_SNK1Z_PKGQ0526A_FWQ0510B.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9647",
+      "label": "SM2258XT_SNK1Z_PKGQ0629A_FWQ0616B_Beta.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9650",
+      "label": "SM2258XT_SNK1Z_PKGQ0629A_FWQ0616B_Beta(TS-3V3).rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9645",
+      "label": "SM2258XT_SNK1Z_PKGR0209A_FWQ1205B_DDR400.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9414",
+      "label": "SM2258XT_SNK1Z_PKGR0209A_FWQ1205B_NewMPISP.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12938",
+      "label": "SM2258XT_SNK1Z_PKGR0628A_FWR0529A.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9746",
+      "label": "SM2258XT_SNK1Z-TLC_PKGR0910A_FWR0827A.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9331",
+      "label": "SM2258XT_SNK1Z-TLC_PKGR0910A_FWR0827A(fixRDT).rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13336",
+      "label": "SM2258XT_SNK1Z-TLC_PKGS0312A_FWS0115A.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9327",
+      "label": "SM2258XT_SNK1Z-TLC_PKGS0313A_FWS0115A_Beta_JIRA-891.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13266",
+      "label": "SM2258XT_SNK1Z-TLC_PKGT0804_FWS0411A_Beta.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12766",
+      "label": "SM2258XT_SNK1Z-MLC_PKGS0910A_FWS0909A0_Beta.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12768",
+      "label": "SM2258XT_SNK1Z-MLC_PKGS1022A_FWS1022A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12767",
+      "label": "SM2258XT(AD)_SNK1Z-MLC_PKGU0415A_FWU0401A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13265",
+      "label": "SM2258XT(AD)_SNK1Z-MLC-8Die_PKGU0415A_FWU0401A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12355",
+      "label": "SM2258XT_SNK1ZL-MLC-8Die_PKGS1022A_FWS1022A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=15068",
+      "label": "SM2258XT_MPP1207A_FWP1209A_RDTP1206A0_HY16_SNK1Z.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9801",
+      "label": "SM2258XT_MPP1207A_FWP1209A_RDTP1206A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12939",
+      "label": "SM2258XT_SNK1Z_PKGQ0310A_MPQ0213B_FWQ0213A.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12940",
+      "label": "SM2258XT_SNK1Z_PKGQ0417B_MPQ0407A_FWQ0405A.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9413",
+      "label": "SM2258XT_MPP1027A_FWP1029A_RDTP1014A0_Hynix16_Only.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9199",
+      "label": "SM2258XT_HY16_PKGQ0605A_FWQ0601B.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9218",
+      "label": "SM2258XT_HY16_PKGQ0605A_FWQ0601B_PHINOCOM.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9207",
+      "label": "SM2258XT_HY16_PKGQ0622A_FWQ0601B.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9365",
+      "label": "SM2258XT_HY16_Q0630A_FWQ0630A.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10804",
+      "label": "SM2258XT_HY16_PKGT1111A_FWS0411A.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=14989",
+      "label": "SM2258XTAD_HYV6_PKGU0406A_FWU0326A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9198",
+      "label": "SM2258XT_HY3D-V2_PKGR0920A_FWR0905A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9340",
+      "label": "SM2258XT_HY3D-V2_PKGS0510A_FWS0509A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12929",
+      "label": "SM2258XT_HY3D-V2_PKGT0117B_FWT0114A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9329",
+      "label": "SM2258XT_HY3D-V3_PKGS0222A_FWS0130B0(add28802980).rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9341",
+      "label": "SM2258XT_HY3D-V3_PKGS0510A_FWS0509A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10191",
+      "label": "SM2258XT(AD)_HY3D-V3_PKGU0105A_FWT1130A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9652",
+      "label": "SM2258XT_HY3D-V4_PKGR0205A_FWR0124A0_20180301.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9205",
+      "label": "SM2258XT_HY3D-V4_PKGR0404A_FWR0330A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9203",
+      "label": "SM2258XT_HY3D-V4_PKGR1012A_FWR1001A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9333",
+      "label": "SM2258XT_HY3D-V4_PKGS0103A_FWR1226B0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13262",
+      "label": "SM2258XT_HY3D-V4_PKGS0215A_FWS0130B0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=8921",
+      "label": "SM2258XT_HY3D-V4_PKGS0402A_FWS0330B0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9243",
+      "label": "SM2258XT_HY3D-V4_PKGS0722A_FWS0712B0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9335",
+      "label": "SM2258XT_HY3D-V4_PKGS0925A_FWS0924A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13261",
+      "label": "SM2258XT_HY3D-V4_PKGT0724B_FWT0724A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12923",
+      "label": "SM2258XT_HY3D-V4_PKGT0914A_FWT09010A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10184",
+      "label": "SM2258XT(AD)_HY3D-V4_PKGU0105A_FWT1130A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12675",
+      "label": "SM2258XT(AD)_HY3D-V4_PKGU0330A_FWU0330A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9539",
+      "label": "SM2258XT_HY3D-V5_PKGS1129A_FWS1230A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10508",
+      "label": "SM2258XT_HY3D-V5_PKGT0706A_FWT0706A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12931",
+      "label": "SM2258XT_HY3D-V5_PKGT0915A_FWT0910A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10195",
+      "label": "SM2258XT(AD)_HY3D-V5_PKGU0105A_FWT1128A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10188",
+      "label": "SM2258XT(AD)_Support_some_HYNV6.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12679",
+      "label": "SM2258XT(AD)_HY3D-V5_PKGU1007A_FWU0511A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9001",
+      "label": "SM2258XT_B05A_PKGQ1103A_FWQ1103A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10691",
+      "label": "SM2258XT_B05A_PKGS0705A_FWS0227A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13335",
+      "label": "SM2258XT(AD)_B05A_PKGU0409A_FWU0401A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9208",
+      "label": "SM2258XT_B16A_PKGQ0816B_FWQ0816C0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9622",
+      "label": "SM2258XT_B16A_PKGQ1024B_FWQ0922A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9828",
+      "label": "SM2258XT_B16A_PKGQ1024B_FWQ0922A0(forSpectekB16fixdll).rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9618",
+      "label": "SM2258XT_B16A_PKGQ1124A_FWQ1115A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9620",
+      "label": "SM2258XT_B16A_PKGQ1220A_FWQ1204B0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9623",
+      "label": "SM2258XT_B16A_PKGR0404A_FWR0327B0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9621",
+      "label": "SM2258XT_B16A_PKGR0524A_FWR0510A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9330",
+      "label": "SM2258XT_B16A_PKGR0608C_FWR0522A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9324",
+      "label": "SM2258XT_B16A_PKGR0626A_FWR0522A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9323",
+      "label": "SM2258XT_B16A_PKGR0626A_FWR0522A0_20180627.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9619",
+      "label": "SM2258XT_B16A_PKGR1029A_FWR0817A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9320",
+      "label": "SM2258XT_B16A_PKGS0322A_FWS0222A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9745",
+      "label": "SM2258XT_B16A_PKGS0513A_FWS0424A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9339",
+      "label": "SM2258XT_B16A_PKGS0705A_FWS0626A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10807",
+      "label": "SM2258XT_B16A_PKGS0705A_FWS0628A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12953",
+      "label": "SM2258XT_B16A_PKGS1220B_FWS1206A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10185",
+      "label": "SM2258XT(AD)_B16A_PKGT1216A_FWT1125A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12957",
+      "label": "SM2258XT(AD)_B16A_PKGU0409_FWU0401A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12354",
+      "label": "SM2258XT(AD)_B16A_PKGV0608A_FWV0328A0-Beta.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=8902",
+      "label": "SM2258XT_B17A_PKGQ1124A_FWQ1115A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9336",
+      "label": "SM2258XT_B17A_PKGQ1124A_FWQ1115A0_20180201.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9642",
+      "label": "SM2258XT_B17A_PKGR0223A_FWR0123A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9633",
+      "label": "SM2258XT_B17A_PKGR0402A_FWR0327B0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9630",
+      "label": "SM2258XT_B17A_PKGR0402A_FWR0327C0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9360",
+      "label": "SM2258XT_B17A_PKGR0402A_FWR0327B0_20180411.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=8607",
+      "label": "SM2258XT_B17A_PKGR0507A_FWR0423A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=8611",
+      "label": "SM2258XT_B17A_PKGR0605A_FWR0522A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9079",
+      "label": "SM2258XT_B17A_PKGR0605A_FWQ0816C0_FWR0522A0_B16A.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9326",
+      "label": "SM2258XT_B17A_PKGR0626A_FWR0522A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9629",
+      "label": "SM2258XT_B17A_PKGR0626A_FWR0522A0(Add_Micron_B17_512GB_Flash).rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9219",
+      "label": "SM2258XT_B17A_PKGR0828A_FWR0817B0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9641",
+      "label": "SM2258XT_B17A_PKGR1029A_FWR0817B0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9322",
+      "label": "SM2258XT_B17A_PKGS0225A_FWS0222A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9338",
+      "label": "SM2258XT_B17A_PKGS0708A_FWS0628A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10803",
+      "label": "SM2258XT_B17A_PKGS1223A_FWS1211A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=15061",
+      "label": "SM2258XT_B17A_PKGT0722A_FWT0722A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10187",
+      "label": "SM2258XT(AD)_B17A_PKGU0105A_FWT1125A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12952",
+      "label": "SM2258XT(AD)_B17A_PKGU0521A_FWU0514A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12941",
+      "label": "SM2258XT(AD)_B17A_PKGV0315A_FWU1230A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=11382",
+      "label": "SM2258XT_SSV2-TLC_PKGT0506A_FWT0506A0_Beta.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13323",
+      "label": "SM2258XT(AD)_SSV2-TLC_PKGU0105A_FWT0721A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13322",
+      "label": "SM2258XT_SSV2-TLC_PKGV0111A_FWV0226A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13324",
+      "label": "SM2258XT(AD)_SSV2-TLC_PKGV0329A_FWV0226A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12930",
+      "label": "SM2258XT_SSV3-TLC_PKGR1009A_FWR1001A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9764",
+      "label": "SM2258XT_SSV3-TLC_PKGR1212A_FWR1211A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12927",
+      "label": "SM2258XT_SSV3-TLC_PKGS0920A_FWS0212B0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12357",
+      "label": "SM2258XT_SSV3-TLC_MODW1228A_FWS1230A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9348",
+      "label": "SM2258XT_SSV4-TLC_PKGS0515A_FWS0509A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9248",
+      "label": "SM2258XT_SSV4-TLC_PKGS0708A_FWS0628A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12928",
+      "label": "SM2258XT_SSV4-TLC_PKGS0716A_FWS0712B0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10521",
+      "label": "SM2258XT_SSV4-TLC_PKGS0820A_FWS0712B0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9609",
+      "label": "SM2258XT_SSV4-TLC_PKGS0920A_FWS0920A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10507",
+      "label": "SM2258XT_SSV4-TLC_PKGS1023A_FWS1022A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12920",
+      "label": "SM2258XT_SSV4-TLC_PKGT0518A_FWT0311A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10183",
+      "label": "SM2258XT(AD)_SSV4-TLC_PKGU0105A_FWT0910A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=15022",
+      "label": "SM2258XT(AD)_SSV4-TLC_PKGU0819B_FWU0819A0_CEReduction_2-4Die+8Die.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10738",
+      "label": "SM2258XT_SSV3SSV4-TLC_PKGS0920A_FWS0920A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13264",
+      "label": "SM2258XT_SSV3-MLC_PKGS0212A_FWS0311A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12676",
+      "label": "SM2258XT_SSV3-MLC_PKGS1029A_FWS1022B0_Beta.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10505",
+      "label": "SM2258XT_SSV4-MLC_PKGS0826A_FWS0729A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12358",
+      "label": "SM2258XT_SSV4-MLC_MODW1228A_FWS1230A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13263",
+      "label": "SM2258XT_SSV5-TLC_PKGT0421B_FWT0414A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10190",
+      "label": "SM2258XT(AD)_Support_some_SSV5.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12925",
+      "label": "SM2258XT_SS14_PKGQ1115A_FWQ1107A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12924",
+      "label": "SM2258XT_SS14_PKGS0503A_FWS0503A0_Beta.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12921",
+      "label": "SM2258XT_SS14_PKGS0828A_FWS0822A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12922",
+      "label": "SM2258XT_SS14_PKGT0107A_FWT0106A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9628",
+      "label": "SM2258XT_IM3D_PKGQ0202B_FWQ0120B.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9351",
+      "label": "SM2258XT_IM3D_PKGQ0313A_FWQ0216C.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9762",
+      "label": "SM2258XT_IM3D_PKGQ0330A_FWQ0330A0_RDT0330A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9615",
+      "label": "SM2258XT_IM3D_PKGQ0502B_FWQ0414B0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9617",
+      "label": "SM2258XT_IM3D_PKGQ0517A_FWQ0517A.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9749",
+      "label": "SM2258XT_IM3D_PKGQ0613A_FWQ0606B0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9344",
+      "label": "SM2258XT_IM3D_PKGQ0620A_FWQ0616B0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9625",
+      "label": "SM2258XT_IM3D_PKGQ0720A_FWQ0720B0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9802",
+      "label": "SM2258XT_IM3D_PKGQ0907A_FWQ0831D0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12935",
+      "label": "SM2258XT_IM3D_PKGQ0914A_FWQ0831C0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12936",
+      "label": "SM2258XT_IM3D_PKGQ0919B_FWQ0831C0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9614",
+      "label": "SM2258XT_IM3D_PKGQ1128A_FWQ1117B0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9631",
+      "label": "SM2258XT_IM3D_PKGQ1206A_FWQ1124A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9200",
+      "label": "SM2258XT_IM3D_PKGQ1206A_FWQ1124A0_B0KB.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9626",
+      "label": "SM2258XT_IM3D_PKGQ1229A_FWQ1204B0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9969",
+      "label": "SM2258XT_IM3D_PKGR0202A_FWR0123A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9357",
+      "label": "SM2258XT_IM3D_PKGR0314A_FWR0314B0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9624",
+      "label": "SM2258XT_IM3D_PKGR0419A_FWR0327B0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9763",
+      "label": "SM2258XT_IM3D_PKGR0426A_FWR0423A0_Beta.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9356",
+      "label": "SM2258XT_IM3D_PKGR0517A_FWR0423A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9632",
+      "label": "SM2258XT_IM3D_PKGR0626B_FWR0522A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9765",
+      "label": "SM2258XT_IM3D_PKGR0920A_FWR0831B0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9346",
+      "label": "SM2258XT_IM3D_PKGR1026A_FWR0831B0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=8922",
+      "label": "SM2258XT_IM3D_PKGS0516A_FWS0424A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9353",
+      "label": "SM2258XT_IM3D_PKGS0910A_FWS0909A0_Beta.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12951",
+      "label": "SM2258XT_IM3D_PKGT0508A_FWT0506A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12955",
+      "label": "SM2258XT_IM3D_PKGT0910A_FWT0910A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13769",
+      "label": "SM2258XT(AD)_IM3D_PKGU0304A_FWU0128A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12950",
+      "label": "SM2258XT(AD)_IM3D_PKGU0512B_FWU0430A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13773",
+      "label": "SM2258XT_IM3D_L05B_PKGS0731B_FWS0729A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10194",
+      "label": "SM2258XT(AD)_IM3D_L05B_PKGU0105A_FWS1217A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9648",
+      "label": "SM2258XT_IM3D28_PKGQ1207A_FWQ1124A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12934",
+      "label": "SM2258XT_IM3D28_PKGR0109A_FWQ1211A0-ID04.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9644",
+      "label": "SM2258XT_IM3D28_PKGR0518A_FWR0423A0_Beta.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9643",
+      "label": "SM2258XT_IM3D28_PKGR0518A_FWR0423A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10800",
+      "label": "SM2258XT_IM3D28_PKGS1219A_FWS01218A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13771",
+      "label": "SM2258XT_IM3D28_PKT0413B_FWT0325A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10806",
+      "label": "SM2258XT(AD)_IM3D28_PKGU0512B_FWS0424A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12949",
+      "label": "SM2258XT(AD)_IM3D28_PKU1223A_FWU1223A0_Beta.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13770",
+      "label": "SM2258XT(AD)_IM3D28_PKU1223A_FWU1223A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9646",
+      "label": "SM2258XT_TSB-BiCS_PKGR0119A_FWR0118A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13242",
+      "label": "SM2258XT_TSB-BiCS_PKGR0912A_FWR0118A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13240",
+      "label": "SM2258XT_TSB-BiCS2_PKGS1028A_FWS0618B0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13245",
+      "label": "SM2258XT_TSB-BiCS2_PKGS1028A_FWS1024A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9321",
+      "label": "SM2258XT_TSB-BiCS3_PKGR0227A_FWR0226A0_beta(9T23).rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9743",
+      "label": "SM2258XT_TSB-BiCS3_PKGR0720A_FWR0720B0_Beta.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9738",
+      "label": "SM2258XT_TSB-BiCS3_PKGR0821A_FWR0817A0_Beta.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9742",
+      "label": "SM2258XT_TSB-BiCS3_PKGR0904A_FWR0817A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9740",
+      "label": "SM2258XT_TSB-BiCS3_PKGR1023A_FWR1017A0_Beta.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9737",
+      "label": "SM2258XT_TSB-BiCS3_PKGR10A_FWR0820B0_Beta(1TB).rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10506",
+      "label": "SM2258XT_TSB-BiCS3_PKGS0503A_FWS0502A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9345",
+      "label": "SM2258XT_TSB-BiCS3_PKGS0510A_FWS0509A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10509",
+      "label": "SM2258XT_TSB-BiCS3_PKGS1118A_FWS1113C0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10801",
+      "label": "SM2258XT_TSB-BiCS3_PKGS1224A_FWS1223A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10193",
+      "label": "SM2258XT(AD)_TSB-BiCS3_PKGU0105A_FWT0910A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10809",
+      "label": "SM2258XTAD_TSB-BiCS3_PKGU0209A_FWU0205A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10805",
+      "label": "SM2258XT(AD)_TSB-BiCS3_PKGU0209B_FWU0205A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13254",
+      "label": "SM2258XT(AD)_TSB-BiCS3_PKGU0414A_FWU0330A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13250",
+      "label": "SM2258XT(AD)_TSB-BiCS3_PKGV0111A_FWU1213A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13325",
+      "label": "SM2258XT(AD)_TSB-BiCS3-8Die_PKGU0209B_FWU0205A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12933",
+      "label": "SM2258XT_TSB-BiCS4_PKGS0124A_FWS0123A0_Beta.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10514",
+      "label": "SM2258XT_TSB-BiCS4_PKGS0326A_FWS0226A0_0613.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10519",
+      "label": "SM2258XT_TSB-BiCS4_PKGS0326A_FWS0226A0_0712.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10113",
+      "label": "SM2258XT(AD)_TSB-BiCS4_PKGU0107A_FWT0910A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10112",
+      "label": "SM2258XT(AD)_TSB-BiCS4-8Die_PKGU0107A_FWT0910A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10631",
+      "label": "SM2258XT(AD)_TSB-BiCS4_PKGU0114A_FWU0104A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12954",
+      "label": "SM2258XT(AD)_TSB-BiCS4_PKGU1204A_FWU0826A0_Beta.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13772",
+      "label": "SM2258XT(AD)_TSB-BiCS5_PKGU0114A_FWU0104A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10680",
+      "label": "SM2258XT_BiCS_PKGQ0427A_FWQ0418B_KB.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9337",
+      "label": "SM2258XT_BiCS_PKGQ0602A_FWQ0602A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13246",
+      "label": "SM2258XT_BiCS_PKGQ0720B_FWQ0626A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9309",
+      "label": "SM2258XT_SNK-BiCS3_PKGQ1122A_FWQ1121A0_20180111.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9744",
+      "label": "SM2258XT_SNK-BiCS3_PKGR0313A_FWR0302A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9610",
+      "label": "SM2258XT_SNK-BiCS3_PKGR0502A_FWR0427A0_Beta.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9736",
+      "label": "SM2258XT_SNK-BiCS3_PKGR0504A_FWR0427A0_Beta.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9741",
+      "label": "SM2258XT_SNK-BiCS3_PKGR0606A_FWR0430A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9739",
+      "label": "SM2258XT_SNK-BiCS3_PKGR0724A_FWR0726A0_beta_JIRA539_541.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9611",
+      "label": "SM2258XT_SNK-BiCS3_PKGR0813A_FWR0809B0_Beta.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13244",
+      "label": "SM2258XT_SNK-BiCS3-4Die_PKGS0211A_FWS0130B0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9343",
+      "label": "SM2258XT_SNK-BiCS3_PKGS0716A_FWS0712B0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10517",
+      "label": "SM2258XT_SNK-BiCS3-8Die_PKGS0731A_FWS0712B0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9350",
+      "label": "SM2258XT_SNK-BiCS3_PKGS1022A_FWS1022A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10515",
+      "label": "SM2258XT_SNK-BiCS3-8Die_PKGT0415A_FWT0311A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13243",
+      "label": "SM2258XT_SNK-BiCS3_PKGT0522A_FWT0521A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13241",
+      "label": "SM2258XT_SNK-BiCS3_PKGT1023A_FWT0910A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13252",
+      "label": "SM2258XT(AD)_SNK-BiCS3-8Die_PKGU0330A_FWU0330A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13251",
+      "label": "SM2258XT(AD)_SNK-BiCS3_PKGU0510A_FWU0503A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13255",
+      "label": "SM2258XT(AD)_SNK-BiCS3-8Die_PKGU0712B_FWU0503A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9347",
+      "label": "SM2258XT_SNK-BiCS4_PKGS0808A_FWS0807A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9342",
+      "label": "SM2258XT_SNK-BiCS4_PKGS1023A_FWS1022A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10518",
+      "label": "SM2258XT_SNK-BiCS4_PKGT0418A_FWT0311A0_Beta.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10192",
+      "label": "SM2258XT_SNK-BiCS4_PKGT0601A_FWT0707B0T0709.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10516",
+      "label": "SM2258XT_SNK-BiCS4_PKGT0910A_FWT0910A0_Beta.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10512",
+      "label": "SM2258XT_SNK-BiCS4_PKGT1023A_FWT0910A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10186",
+      "label": "SM2258XT(AD)_SNK-BiCS4_PKGT1216A_FWT0910A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13247",
+      "label": "SM2258XT(AD)_SNK-BiCS4_PKGU0114A_FWU0104A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12356",
+      "label": "SM2258XT(AD)_SNK-BiCS4_PKGU1204A_FWU0826A0_Beta.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10513",
+      "label": "SM2258XT_SNK-BiCS4-8Die_PKGT0601A_FWT0520A0_T0623.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10808",
+      "label": "SM2258XT(AD)_SNK-BiCS4-8Die_PKGU0330A_FWU0330A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13327",
+      "label": "SM2258XT(AD)_SNK-BiCS4-8Die_PKGU0826A_FWU0826A0_Beta.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13248",
+      "label": "SM2258XT_SNK-LBiCS3_PKGU0510A_FWR1108A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13249",
+      "label": "SM2258XT_SNK-LBiCS3-8Die_PKGR1016B_FWR1016A0_Beta.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13253",
+      "label": "SM2258XT_SNK-LBiCS3-8Die_PKGR1116A_FWR1108A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12932",
+      "label": "SM2258XT_YMTC_PKGT0910A_FWT0910A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12926",
+      "label": "SM2258XT(AD)_YMTC_PKGU0406A_FWU0406A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12919",
+      "label": "SM2258XT(AD)_YMTC_PKGU0701A_FWU0701A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12956",
+      "label": "SM2258XT(AD)_SYMTC_PKGU0922A_FWU0916A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13402",
+      "label": "SM2258XT_Avidia-Modify.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13403",
+      "label": "SM2258XT_Avidia-Modify_v2.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10192",
+      "label": "https://www.usbdev.ru/?wpfb_dl=10192"
+    }
+  ],
+  "smi_sm2259xt_mptool": [
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=8999",
+      "label": "SM2259XT_N18_PKGS0502A_FWS0423B0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10498",
+      "label": "SM2259XT_N18_PKGT0914A_FWT0910A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10178",
+      "label": "SM2259XT(AC)_N18_PKGU0223_FWU0128A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10181",
+      "label": "SM2259XT_N28A_PKGS1129A_FWS1120A0_HT20200222.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12858",
+      "label": "SM2259XT_N28A_PKGS1219A_FWS1128B0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10499",
+      "label": "SM2259XT_N28A_PKGT0331A_FWT0220A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=8655",
+      "label": "SM2259XT_B27A_PKGS0219A.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10177",
+      "label": "SM2259XT_B27A_PKGT0317B_FWT0317A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12906",
+      "label": "SM2259XT(AC)_FIM27A_PKGU0119A_FWU0115A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10179",
+      "label": "SM2259XT_B27B_PKGS0719A_FWS0719A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12851",
+      "label": "SM2259XT_B27B_PKGS1126A_FWS1120A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12908",
+      "label": "SM2259XT(AC)_FIM27B_PKGT1208A_FWT1125A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12907",
+      "label": "SM2259XT(AC)_FIM27B_PKGU0119A_FWU0115A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12852",
+      "label": "SM2259XT_B36R_PKGT0929A_FWT0929A0_Beta.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12863",
+      "label": "SM2259XT_FIM27A_PKGT0805A_FWT0805A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12853",
+      "label": "SM2259XT(AC)_FIM27A_PKGT1208A_FWT1125A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12849",
+      "label": "SM2259XT(AC)_EIM27A_PKGU0104A_FWU0104A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13320",
+      "label": "SM2259XT(AC)_DIM27A_PKGU0325A_FWU0325A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12861",
+      "label": "SM2259XT(AC)_EIM27B_PKGT1231A_FWT1231A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=11084",
+      "label": "SM2259XT(AC)_DIM27B_PKGU0415A_FWU0412A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=9854",
+      "label": "SM2259XT_IMT28_PKGT0731A0_FWT0731A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12854",
+      "label": "SM2259XT_IMT28_PKGT0910A0_FWT0910A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12860",
+      "label": "SM2259XT(AC)_IMT28_PKGU0224_FWU0128A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10180",
+      "label": "SM2259XT_B37R_PKGT0929A_FWT0929A0_HT20201116.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10491",
+      "label": "SM2259XT(AC)_FIMB37R_PKGT1210A_FWT1125A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10492",
+      "label": "SM2259XT(AC)_FIMB37R_PKGU0319A_FWU0319A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12856",
+      "label": "SM2259XT(AC)_FIMB37R_PKGU0729A_FWU0729A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10494",
+      "label": "SM2259XT(AC)_FIMN38_PKGU0121A0_FWU0121A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10490",
+      "label": "SM2259XT(AC)_FIMN38_PKGU0521A0_FWU0506A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13321",
+      "label": "SM2259XT(AC)_FIMN38_PKGV0801A0_FWV0630A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10487",
+      "label": "SM2259XT(AC)_FIMB47R_PKGU0312B_FWU0309A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12342",
+      "label": "SM2259XT(AC)_FIMB47R_PKGU0524A_FWU0524A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12848",
+      "label": "SM2259XT(AC)_HY3D-V5QLC_PKGU0105A_FWU0105A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12343",
+      "label": "SM2259XT(AC)_HY3D-V5QLC_PKGU0408A_FWU0329A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10493",
+      "label": "SM2259XT(AC)_HY3D-V6_PKGU0108A_FWU0105A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10182",
+      "label": "SM2259XT(AC)_HY3D-V6_PKGU0406A_FWU0326A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12855",
+      "label": "SM2259XT(AC)_HY3D-V6_PKGU0817B_FWU0817A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12857",
+      "label": "SM2259XT(AC)_HY3D-V6_PKGV0211A_FWV0127A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12345",
+      "label": "SM2259XT(AC)_HY3D-V6_PKGV0707A_FWV0308A0_Beta.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10496",
+      "label": "SM2259XT_SNK-BiCS3_PKGT0918B_FWT0917A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=11085",
+      "label": "SM2259XT_TGT3V23_PKGT0918B_FWT0917A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10495",
+      "label": "SM2259XT_SNK-BiCS4_PKGT0828A_FWT0828A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=11149",
+      "label": "SM2259XT(AC)_SNK-BICS4_PKGU0827A_FWU0817A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12346",
+      "label": "SM2259XT(AC)_FSSV5-TLC_PKGU0406A_FWT0909A1.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12850",
+      "label": "SM2259XT(AC)_FSSV5-TLC_PKGT1223A_FWT1223A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=11283",
+      "label": "SM2259XT(AC)_FSSV6-TLC_PKGU0506A_FWU0329A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12862",
+      "label": "SM2259XT(AC)_FSSV6-TLC_PKGU1004A_FWU1001A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12344",
+      "label": "SM2259XT_M26_PKGS1203B_FWS1127A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12859",
+      "label": "SM2259XT(AC)_YMTC_TAS_PKGU0811A_FWU0729A0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=12341",
+      "label": "SM2259XT(AC)_YMTC_TAS_MODW1228A_FWV0513A0.rar"
+    }
+  ],
+  "phison_ps3111_mptool": [
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=11572",
+      "label": "PS3111Mod_ProPlus_PX&#038;Av_Upd_v6.0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13331",
+      "label": "PS3111Mod_ProPlus_PX&#038;Av_Upd_v8.0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13330",
+      "label": "PS3111Mod_ProPlus_PX&#038;Av_Upd_v8.1.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13332",
+      "label": "PS3111Mod_ProPlus_PX&#038;Av_Upd_v9.0.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=13587",
+      "label": "PS3111Mod_ProPlus_PX&#038;Av_Upd_v9.1.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10942",
+      "label": "HG2258-SSD_MP_v2.2.24-20190620.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10941",
+      "label": "HG2258-SSD_MP_v2.2.32-20190830.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10934",
+      "label": "PS3111_SSD_MPTOOL_V2.2.22.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10937",
+      "label": "PS3111_SSD_MPTOOL_V2.2.22(HuiMei).rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10935",
+      "label": "PS3111_SSD_MP_Tool_Pro_Plus_V2.2.70.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10936",
+      "label": "PS3111_SSD_MPTOOL_V2.2.82.rar"
+    },
+    {
+      "url": "https://www.usbdev.ru/?wpfb_dl=10938",
+      "label": "SSD_MP_Tool_v2.2.85-20211110.rar"
+    }
+  ]
+}

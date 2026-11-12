@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SSD Firmware Studio Pro — Phison / SMI / Maxio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Header -->
+  <header class="app-header">
+    <div class="brand-section">
+      <div class="brand-icon">⚡</div>
+      <div class="brand-title">
+        <h1>SSD Firmware Studio Pro</h1>
+        <p>Phison (PS3111/E12) • Silicon Motion (SM2258/59XT) • Maxio (MAS0902/1102)</p>
+      </div>
+    </div>
+    <div class="header-status">
+      <div class="status-badge" id="systemStatusBadge">
+        <span class="pulsing-dot"></span>
+        <span id="statusText">Движок готов</span>
+      </div>
+      <button class="btn btn-secondary" id="btnRefreshDisks" title="Обновить список накопителей">🔄 Обновить диски</button>
+      <button class="btn btn-secondary" id="btnOpenOutput" title="Открыть папку с прошивками и флешерами">📁 Папка Output</button>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="app-container">
+
+    <!-- Step Wizard Nav -->
+    <nav class="steps-nav" id="stepsNav">
+      <div class="step-item active" data-step="1" id="stepTab1">
+        <div class="step-num">1</div>
+        <div class="step-content">
+          <h3>Выбор диска</h3>
+          <p>Накопитель в системе</p>
+        </div>
+      </div>
+      <div class="step-item" data-step="2" id="stepTab2">
+        <div class="step-num">2</div>
+        <div class="step-content">
+          <h3>Опрос контроллера</h3>
+          <p>Чтение Flash ID и чипов</p>
+        </div>
+      </div>
+      <div class="step-item" data-step="3" id="stepTab3">
+        <div class="step-num">3</div>
+        <div class="step-content">
+          <h3>Выбор прошивки</h3>
+          <p>Подбор под память</p>
+        </div>
+      </div>
+      <div class="step-item" data-step="4" id="stepTab4">
+        <div class="step-num">4</div>
+        <div class="step-content">
+          <h3>Прошивка SSD</h3>
+          <p>Сборка и запуск</p>
+        </div>
+      </div>
+    </nav>
+
+    <!-- SECTION 1: DISK SELECTION -->
+    <section class="panel-card" id="sectionStep1">
+      <div class="panel-header">
+        <div class="panel-title">
+          <span class="icon-badge">💾</span>
+          <h2>Шаг 1: Выберите целевой накопитель</h2>
+        </div>
+        <span class="diag-sub" id="selectedDiskSummary">Диск не выбран</span>
+      </div>
+
+      <p style="font-size: 0.88rem; color: var(--text-muted);">
+        Выберите SSD, который вы хотите восстановить или прошить. Системный диск с операционной системой защищен от случайного выбора.
+      </p>
+
+      <div class="disk-grid" id="diskListGrid">
+        <!-- Dynamically populated disk cards -->
+        <div style="padding: 24px; color: var(--text-muted); text-align: center; grid-column: 1/-1;">
+          Загрузка списка накопителей...
+        </div>
+      </div>
+
+      <div style="display: flex; justify-content: flex-end; margin-top: 10px;">
+        <button class="btn btn-primary" id="btnProceedToDetect" disabled>
+          Далее: Опросить контроллер ➔
+        </button>
+      </div>
+    </section>
+
+    <!-- SECTION 2: PROBE & DETECT -->
+    <section class="panel-card" id="sectionStep2" style="display: none;">
+      <div class="panel-header">
+        <div class="panel-title">
+          <span class="icon-badge">🔍</span>
+          <h2>Шаг 2: Диагностика и определение чипов</h2>
+        </div>
+        <div style="display: flex; gap: 10px;">
+          <label style="display: flex; align-items: center; gap: 6px; font-size: 0.82rem; color: var(--text-muted); cursor: pointer;" title="Включайте ТОЛЬКО если тестовые контакты (ROM/JP1) уже физически замкнуты! На обычном диске вызовет сбой опроса.">
+            <input type="checkbox" id="chkForceRomMode"> Принудительный ROM Mode (обход 'u')
+          </label>
+          <button class="btn btn-primary" id="btnRunProbe">⚡ Запустить опрос</button>
+        </div>
+      </div>
+
+      <!-- Diagnostic Results Card -->
+      <div class="diagnostic-grid" id="detectionResultGrid">
+        <div class="diag-card">
+          <span class="diag-label">Контроллер</span>
+          <span class="diag-value" id="valController">—</span>
+          <span class="diag-sub" id="valVendor">—</span>
+        </div>
+        <div class="diag-card">
+          <span class="diag-label">NAND Flash ID (FID)</span>
+          <span class="diag-value" id="valFlashId" style="font-family: monospace; font-size: 1rem;">—</span>
+          <span class="diag-sub" id="valFlashDesc">—</span>
+        </div>
+        <div class="diag-card">
+          <span class="diag-label">Текущая прошивка</span>
+          <span class="diag-value" id="valCurrentFw">—</span>
+          <span class="diag-sub" id="valDriveMode">Режим: Ожидание</span>
+        </div>
+      </div>
+
+      <!-- Raw Diagnostic Log Toggle & Manual Paste -->
+      <div style="display: flex; gap: 10px; margin-top: 6px; flex-wrap: wrap;">
+        <button class="btn btn-secondary" id="btnToggleRawReport" style="font-size: 0.78rem; padding: 6px 12px;">
+          Показать сырой отчет утилиты 📄
+        </button>
+        <button class="btn btn-secondary" id="btnToggleManualPaste" style="font-size: 0.78rem; padding: 6px 12px;">
+          Вставить отчет вручную 📋
+        </button>
+      </div>
+
+      <pre id="rawReportContainer" style="display: none; margin-top: 12px; background: #070b13; padding: 14px; border-radius: 8px; font-size: 0.76rem; max-height: 180px; overflow-y: auto; color: #a7f3d0; border: 1px solid var(--border-subtle);"></pre>
+
+      <div id="manualPasteContainer" style="display: none; margin-top: 12px; background: #090d16; padding: 14px; border-radius: 8px; border: 1px solid var(--border-subtle);">
+        <div style="font-size: 0.82rem; color: var(--text-muted); margin-bottom: 8px;">
+          Вставьте сюда скопированный отчет (от smi_flash_id, phison_flash_id или jm_fid):
+        </div>
+        <textarea id="manualReportText" rows="6" placeholder="Вставьте текст отчета, например:
+v0.569a
+Drive: 4(ATA)
+Model: R5SL480G
+From smart : [SMI2258XT] [T0724A0 00] [HYNV4]
+Controller : SM2258 bufferless
+FlashID: 0xad,0x5e,0x29,0x22,0x10,0x90,0x0,0x0 - Hynix 3dv4-72L TLC 8k..." style="width: 100%; background: #030712; color: #e2e8f0; border: 1px solid var(--border-subtle); border-radius: 6px; padding: 10px; font-family: monospace; font-size: 0.78rem; resize: vertical; box-sizing: border-box;"></textarea>
+        <div style="display: flex; justify-content: flex-end; gap: 10px; margin-top: 8px;">
+          <button class="btn btn-primary" id="btnParseManualReport" style="font-size: 0.8rem; padding: 6px 16px;">
+            🔍 Распознать и применить отчет
+          </button>
+        </div>
+      </div>
+
+      <div style="display: flex; justify-content: space-between; margin-top: 10px;">
+        <button class="btn btn-secondary" id="btnBackToStep1">⬅ Назад к дискам</button>
+        <div style="display: flex; gap: 10px;">
+          <button class="btn btn-secondary" id="btnProceedManualFw" style="font-size: 0.85rem;" title="Перейти к выбору прошивки, если Flash ID не определяется автоматически (например, через USB-мост)">
+            Выбрать прошивку вручную ➔
+          </button>
+          <button class="btn btn-primary" id="btnProceedToFw" disabled>
+            Далее: Подобрать прошивку ➔
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: FIRMWARE SELECTION -->
+    <section class="panel-card" id="sectionStep3" style="display: none;">
+      <div class="panel-header">
+        <div class="panel-title">
+          <span class="icon-badge">📦</span>
+          <h2>Шаг 3: Выбор подходящей прошивки</h2>
+        </div>
+        <div style="display: flex; gap: 12px; align-items: center;">
+          <input type="text" id="fwSearchInput" placeholder="Поиск по названию или памяти..." 
+                 style="background: #0f172a; border: 1px solid var(--border-subtle); color: #fff; padding: 8px 14px; border-radius: 8px; font-size: 0.85rem; width: 260px;">
+          <span class="diag-sub" id="fwCountSummary">Найдено: 0</span>
+        </div>
+      </div>
+
+      <div class="guide-box">
+        <div class="guide-icon">💡</div>
+        <div class="guide-text">
+          <h4>Автоматический подбор под тип Flash-памяти</h4>
+          <p>
+            Список собран из локальной папки firmware. Зелёным отмечена та же серия, что уже стоит на диске. Файлы с сайтов сюда не подмешиваются.
+          </p>
+        </div>
+      </div>
+
+      <!-- Firmware candidates list -->
+      <div class="firmware-list" id="firmwareCandidateList">
+        <!-- Dynamically rendered -->
+      </div>
+
+      <div style="display: flex; justify-content: space-between; margin-top: 10px;">
+        <button class="btn btn-secondary" id="btnBackToStep2">⬅ Назад к опросу</button>
+        <button class="btn btn-primary" id="btnProceedToFlash" disabled>
+          Далее: Подготовка и прошивка ➔
+        </button>
+      </div>
+    </section>
+
+    <!-- SECTION 4: FLASH & EXECUTION -->
+    <section class="panel-card" id="sectionStep4" style="display: none;">
+      <div class="panel-header">
+        <div class="panel-title">
+          <span class="icon-badge">🔥</span>
+          <h2>Шаг 4: Сборка прошивальщика и запись</h2>
+        </div>
+        <span class="badge-tag tag-emerald" id="readyBadge">Конфигурация готова</span>
+      </div>
+
+      <!-- Action & Warning Info -->
+      <div class="guide-box" style="background: rgba(239, 68, 68, 0.08); border-color: rgba(239, 68, 68, 0.25);">
+        <div class="guide-icon" style="color: #f87171;">⚠️</div>
+        <div class="guide-text">
+          <h4 style="color: #fca5a5;">Важные правила безопасности при прошивке</h4>
+          <p>
+            1. Все пользовательские данные на накопителе будут безвозвратно удалены.<br>
+            2. Если диск определялся как <b>SATFIRM S11</b> или <b>SM2258AB-ROM</b>, он уже готов к прошивке.<br>
+            3. Если диск зависает при опросе — переведите его в тест-мод: замкните тест-поинты перемычкой, подключите питание, затем разомкните перемычку перед запуском записи.
+          </p>
+        </div>
+      </div>
+
+      <!-- Selected summary card -->
+      <div class="diagnostic-grid">
+        <div class="diag-card">
+          <span class="diag-label">Целевой накопитель</span>
+          <span class="diag-value" id="summaryTargetDisk">—</span>
+          <span class="diag-sub" id="summaryBusType">—</span>
+        </div>
+        <div class="diag-card">
+          <span class="diag-label">Выбранная прошивка</span>
+          <span class="diag-value" id="summarySelectedFw" style="font-size: 0.95rem;">—</span>
+          <span class="diag-sub" id="summaryFwNand">—</span>
+        </div>
+        <div class="diag-card">
+          <span class="diag-label">Метод прошивки</span>
+          <span class="diag-value" id="summaryMethod">Phison S11 Standalone Flasher</span>
+          <span class="diag-sub">Автосборка исполняемого fw.exe</span>
+        </div>
+      </div>
+
+      <div id="headerPickRow" style="display: none; align-items: center; gap: 12px; flex-wrap: wrap;">
+        <label for="selHeaderType" style="font-size: 0.85rem; color: var(--text-muted);">Заголовок сборщика S11</label>
+        <select id="selHeaderType" style="background: #0f172a; border: 1px solid var(--border-subtle); color: #fff; padding: 8px 12px; border-radius: 8px; font-size: 0.85rem;">
+          <option value="">Выберите тип памяти</option>
+          <option value="0t">Toshiba / Kioxia / Hynix / SanDisk (0t)</option>
+          <option value="0m">Intel / Micron (0m)</option>
+          <option value="0n">Intel / Micron, новые прошивки (0n)</option>
+        </select>
+      </div>
+
+      <div style="display: flex; gap: 14px; align-items: center;">
+        <button class="btn btn-emerald" id="btnBuildAndFlash" style="font-size: 1rem; padding: 12px 28px;">
+          🚀 Собрать и запустить прошивальщик
+        </button>
+        <button class="btn btn-secondary" id="btnOpenCurrentOutputFolder">
+          📂 Показать созданный fw.exe в проводнике
+        </button>
+      </div>
+
+      <!-- Live Terminal Console -->
+      <div class="terminal-window">
+        <div class="terminal-header">
+          <div class="terminal-dots">
+            <span class="dot dot-red"></span>
+            <span class="dot dot-yellow"></span>
+            <span class="dot dot-green"></span>
+          </div>
+          <span>Системный журнал операций</span>
+          <button id="btnClearLog" style="background: none; border: none; color: var(--text-muted); cursor: pointer; font-size: 0.75rem;">Очистить</button>
+        </div>
+        <div class="terminal-body" id="terminalLog">
+          <div class="log-line log-info">[INFO] Система инициализирована. Выберите накопитель для начала работы.</div>
+        </div>
+      </div>
+
+      <div style="display: flex; justify-content: flex-start; margin-top: 10px;">
+        <button class="btn btn-secondary" id="btnBackToStep3">⬅ Назад к выбору прошивки</button>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
