@@ -24,6 +24,8 @@ cmd = [
     "--noupx",
     "--add-data", f"{os.path.join(BASE_DIR, 'ui')};ui",
     "--add-data", f"{os.path.join(BASE_DIR, 'tools_and_fw_catalog.json')};.",
+    "--hidden-import=re",
+    "--hidden-import=re._constants",
     "--hidden-import=webview",
     "--hidden-import=bottle",
     "--hidden-import=proxy_tools",
