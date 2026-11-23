@@ -11,6 +11,14 @@ from core.scanner import scan_disks
 class StudioApi:
     """Methods exposed to the desktop window. Names are part of the JS bridge."""
 
+    def get_version(self):
+        from core.version import __version__, __app_name__, __build_date__
+        return {
+            "version": __version__,
+            "app_name": __app_name__,
+            "build_date": __build_date__
+        }
+
     def get_disks(self):
         try:
             return {"disks": scan_disks()}

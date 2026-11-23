@@ -7,6 +7,7 @@ import time
 import webbrowser
 
 from core.paths import get_base_dir, get_ui_dir
+from core.version import __version__, __app_name__
 
 
 def _log(message):
@@ -22,7 +23,7 @@ def _log(message):
 def _fail(message):
     _log("ERROR " + message)
     try:
-        ctypes.windll.user32.MessageBoxW(0, message, "SSD Firmware Studio", 0x10)
+        ctypes.windll.user32.MessageBoxW(0, message, f"{__app_name__} v{__version__}", 0x10)
     except Exception:
         print(message, file=sys.stderr)
 
@@ -45,10 +46,10 @@ def run_desktop():
 
     from core.studio_api import StudioApi
 
-    _log(f"desktop ui={ui_path}")
+    _log(f"desktop ui={ui_path} version={__version__}")
     try:
         webview.create_window(
-            "SSD Firmware Studio Pro — Phison / SMI / Maxio",
+            f"{__app_name__} v{__version__} — Phison / SMI / Maxio",
             url=ui_path,
             js_api=StudioApi(),
             width=1340,
@@ -95,7 +96,7 @@ def run_web(port=8000):
         if _port_open(port):
             url = f"http://127.0.0.1:{port}"
             _log(f"web {url}")
-            print(f"[OK] SSD Firmware Studio Pro is running at {url}")
+            print(f"[OK] {__app_name__} v{__version__} is running at {url}")
             webbrowser.open(url)
             try:
                 while True:
@@ -112,6 +113,7 @@ def run_web(port=8000):
 def run_check():
     from core.studio_api import StudioApi
 
+    print(f"{__app_name__} v{__version__}")
     api = StudioApi()
     disks = api.get_disks()
     print(f"disks {len(disks.get('disks') or [])}")
@@ -127,7 +129,7 @@ def run_check():
 
 
 def main():
-    _log("start " + " ".join(sys.argv))
+    _log(f"start {__app_name__} v{__version__} " + " ".join(sys.argv))
     if "--check" in sys.argv:
         run_check()
     elif "--web" in sys.argv:

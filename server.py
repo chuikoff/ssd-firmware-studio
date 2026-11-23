@@ -7,12 +7,17 @@ from typing import Optional, Dict, Any
 
 from core.studio_api import StudioApi
 from core.paths import get_ui_dir
+from core.version import __version__, __app_name__
 
 studio = StudioApi()
 
 UI_DIR = get_ui_dir()
 
-app = FastAPI(title="SSD Firmware Studio API")
+app = FastAPI(title=f"{__app_name__} API", version=__version__)
+
+@app.get("/api/version")
+def get_version():
+    return studio.get_version()
 
 class DetectRequest(BaseModel):
     disk_number: int

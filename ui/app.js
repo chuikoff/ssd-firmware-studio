@@ -695,10 +695,29 @@ elements.btnClearLog.addEventListener('click', () => {
   elements.terminalLog.innerHTML = '';
 });
 
+async function syncVersion() {
+  try {
+    const api = desktopApi();
+    let data = null;
+    if (api && api.get_version) {
+      data = await api.get_version();
+    } else if (location.protocol === 'http:' || location.protocol === 'https:') {
+      const res = await fetch('/api/version');
+      data = await res.json();
+    }
+    if (data && data.version) {
+      const tag = document.getElementById('appVersionTag');
+      if (tag) tag.textContent = `v${data.version}`;
+      log(`SSD Firmware Studio Pro v${data.version} инициализирован`, "info");
+    }
+  } catch (_) {}
+}
+
 function boot() {
   if (state.booted) return;
   state.booted = true;
   markSteps();
+  syncVersion();
   if (!desktopApi() && location.protocol !== 'http:' && location.protocol !== 'https:') {
     elements.diskListGrid.innerHTML = `
       <div style="padding: 24px; color: var(--text-muted); text-align: center; grid-column: 1/-1;">

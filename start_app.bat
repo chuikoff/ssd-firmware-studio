@@ -1,5 +1,5 @@
 @echo off
-title SSD Firmware Studio Pro
+title SSD Firmware Studio Pro v1.0.1
 cd /d "%~dp0"
 
 set "PY_EXE=python"

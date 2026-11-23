@@ -1,5 +1,9 @@
 # SSD Firmware Studio Pro ⚡
 
+![Version](https://img.shields.io/badge/version-v1.0.1-blue.svg?style=flat-square)
+![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011%20x64-0078d4.svg?style=flat-square)
+![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)
+
 Универсальный графический мастер для диагностики, подбора прошивок и восстановления твердотельных накопителей (SSD) на контроллерах **Phison**, **Silicon Motion (SMI)** и **Maxio**.
 
 ---
