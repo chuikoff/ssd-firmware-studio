@@ -111,14 +111,13 @@ header.app-header {
   font-size: 0.72rem;
   font-weight: 600;
   letter-spacing: 0.4px;
-  padding: 1px 7px;
-  margin-left: 8px;
+  padding: 2px 8px;
   border-radius: 9999px;
-  background: rgba(56, 189, 248, 0.15);
-  border: 1px solid rgba(56, 189, 248, 0.35);
+  background: rgba(56, 189, 248, 0.18);
+  border: 1px solid rgba(56, 189, 248, 0.4);
   color: #38bdf8;
-  -webkit-text-fill-color: #38bdf8;
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  line-height: 1.2;
 }
 
 .brand-title p {
