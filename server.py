@@ -90,10 +90,11 @@ def serve_index():
 
 @app.get("/{filename}")
 def serve_ui_file(filename: str):
-    file_path = os.path.join(UI_DIR, filename)
-    if os.path.exists(file_path):
-        return FileResponse(file_path)
-    return FileResponse(os.path.join(UI_DIR, "index.html"))
+    abs_ui = os.path.abspath(UI_DIR)
+    abs_target = os.path.abspath(os.path.join(abs_ui, filename))
+    if abs_target.startswith(abs_ui) and os.path.isfile(abs_target):
+        return FileResponse(abs_target)
+    return FileResponse(os.path.join(abs_ui, "index.html"))
 
 if __name__ == "__main__":
     import uvicorn

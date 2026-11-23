@@ -248,7 +248,8 @@ def probe_bridge_drive(disk_number):
         None
     )
     if h == -1 or h == 0xFFFFFFFFFFFFFFFF:
-        return {"error": f"CreateFile failed (Err {ctypes.windll.kernel32.GetLastError()})"}
+        err_code = ctypes.GetLastError() or ctypes.windll.kernel32.GetLastError()
+        return {"error": f"CreateFile failed (Err {err_code})"}
 
     try:
         # 1. SAT ATA (common for SATA SSDs in RTL9210B dual enclosures)
@@ -311,7 +312,10 @@ def query_bridge_drive(disk_number):
     script_path = os.path.abspath(__file__)
     py_exe = sys.executable
 
-    ps_cmd = f"Start-Process -FilePath '{py_exe}' -ArgumentList '\"{script_path}\" {disk_number} \"{temp_json}\"' -Verb RunAs -WindowStyle Hidden -Wait"
+    clean_py = str(py_exe).replace("'", "''")
+    clean_script = str(script_path).replace("'", "''")
+    clean_json = str(temp_json).replace("'", "''")
+    ps_cmd = f"Start-Process -FilePath '{clean_py}' -ArgumentList '\"{clean_script}\" {disk_number} \"{clean_json}\"' -Verb RunAs -WindowStyle Hidden -Wait"
     try:
         subprocess.run(
             ["powershell", "-NoProfile", "-Command", ps_cmd],

@@ -46,7 +46,10 @@ def run_elevated_tool(tool_path, arg_str, workdir, timeout_sec=8):
             return False, str(e)
     else:
         # Not admin — must elevate via RunAs
-        ps_cmd = f"Start-Process -FilePath '{tool_path}' -ArgumentList '{arg_str}' -WorkingDirectory '{workdir}' -Verb RunAs -WindowStyle Hidden -Wait"
+        clean_tool = str(tool_path).replace("'", "''")
+        clean_arg = str(arg_str).replace("'", "''")
+        clean_work = str(workdir).replace("'", "''")
+        ps_cmd = f"Start-Process -FilePath '{clean_tool}' -ArgumentList '{clean_arg}' -WorkingDirectory '{clean_work}' -Verb RunAs -WindowStyle Hidden -Wait"
         try:
             subprocess.run(
                 ["powershell", "-NoProfile", "-NonInteractive", "-Command", ps_cmd],

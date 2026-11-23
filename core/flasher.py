@@ -195,6 +195,13 @@ def execute_flasher(exe_path, disk_number=None):
     if ret > 32:
         return {"success": True, "message": f"Прошивальщик {os.path.basename(exe_path)} запущен с правами Администратора."}
 
-    ps_cmd = f"Start-Process -FilePath '{exe_path}' -WorkingDirectory '{workdir}' -Verb RunAs"
+    last_err = ctypes.GetLastError()
+    # 5 = Access Denied / 1223 = ERROR_CANCELLED (user clicked "No" on UAC prompt)
+    if ret == 5 or last_err in (5, 1223):
+        return {"success": False, "message": "Запуск прошивальщика отменен пользователем (UAC)."}
+
+    clean_exe = exe_path.replace("'", "''")
+    clean_workdir = workdir.replace("'", "''")
+    ps_cmd = f"Start-Process -FilePath '{clean_exe}' -WorkingDirectory '{clean_workdir}' -Verb RunAs"
     subprocess.run(["powershell", "-NoProfile", "-Command", ps_cmd], check=True)
     return {"success": True, "message": f"Прошивальщик {os.path.basename(exe_path)} запущен с правами Администратора."}

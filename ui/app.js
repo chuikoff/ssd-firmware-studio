@@ -167,6 +167,16 @@ function markSteps() {
   });
 }
 
+function escapeHtml(str) {
+  if (str == null) return '';
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;');
+}
+
 // Logging helper
 function log(msg, type = 'info') {
   const line = document.createElement('div');
@@ -251,21 +261,27 @@ function renderDisks() {
     }
 
     const busBadge = busClass(disk.bus_type);
+    const safeName = escapeHtml(disk.name);
+    const safeBus = escapeHtml(disk.bus_type || '—');
+    const safeSize = escapeHtml(disk.size_formatted);
+    const safeFw = escapeHtml(disk.firmware || '—');
+    const safeBridge = disk.bridge_name ? escapeHtml(disk.bridge_name) : '';
+    const safeLetters = (disk.drive_letters && disk.drive_letters.length > 0) ? escapeHtml(disk.drive_letters.join(', ')) : '';
 
     card.innerHTML = `
       <div class="disk-header-row">
         <span class="disk-index">Диск ${disk.number}</span>
-        <span class="bus-badge ${busBadge}">${disk.bus_type || '—'}</span>
+        <span class="bus-badge ${busBadge}">${safeBus}</span>
       </div>
-      <div class="disk-name" title="${disk.name}">${disk.name}</div>
+      <div class="disk-name" title="${safeName}">${safeName}</div>
       <div class="disk-meta">
-        <span>Объем: <b>${disk.size_formatted}</b></span>
-        <span>FW: <b>${disk.firmware || '—'}</b></span>
+        <span>Объем: <b>${safeSize}</b></span>
+        <span>FW: <b>${safeFw}</b></span>
       </div>
-      ${disk.bridge_name ? 
-        `<div style="font-size: 0.74rem; color: #38bdf8; margin-top: 3px;">🔌 Мост: <b>${disk.bridge_name}</b></div>` : ''}
-      ${disk.drive_letters && disk.drive_letters.length > 0 ? 
-        `<div style="font-size: 0.78rem; color: var(--text-muted); margin-top: 2px;">Разделы: <b>${disk.drive_letters.join(', ')}</b></div>` : ''}
+      ${safeBridge ? 
+        `<div style="font-size: 0.74rem; color: #38bdf8; margin-top: 3px;">🔌 Мост: <b>${safeBridge}</b></div>` : ''}
+      ${safeLetters ? 
+        `<div style="font-size: 0.78rem; color: var(--text-muted); margin-top: 2px;">Разделы: <b>${safeLetters}</b></div>` : ''}
       ${disk.is_system ? `
         <div class="disk-system-warn">
           <span>🛡️</span>
@@ -408,22 +424,27 @@ function renderFirmwares() {
 
     const reasonsHtml = (fw.match_reasons && fw.match_reasons.length > 0)
       ? `<div style="font-size: 0.76rem; color: #34d399; margin-top: 4px; display: flex; flex-wrap: wrap; gap: 6px;">
-           ${fw.match_reasons.map(r => `<span style="background: rgba(16, 185, 129, 0.15); padding: 2px 8px; border-radius: 4px;">✓ ${r}</span>`).join('')}
+           ${fw.match_reasons.map(r => `<span style="background: rgba(16, 185, 129, 0.15); padding: 2px 8px; border-radius: 4px;">✓ ${escapeHtml(r)}</span>`).join('')}
          </div>`
       : '';
 
     const actionHtml = `<button class="btn btn-secondary btn-select-fw" style="font-size: 0.8rem; padding: 6px 14px;">Выбрать</button>`;
+    const safeFilename = escapeHtml(fw.filename);
+    const safeBadge = escapeHtml(fw.badge || 'Совместимая');
+    const safeTargetNand = escapeHtml(fw.target_nand || 'Phison / SMI');
+    const safeSizeStr = escapeHtml(fw.size_str);
+    const safeGen = fw.generation ? escapeHtml(fw.generation) : '';
 
     card.innerHTML = `
       <div class="fw-info" style="flex: 1;">
         <div class="fw-title">
-          <span>${fw.filename}</span>
-          <span class="badge-tag ${badgeClass}">${fw.badge || 'Совместимая'}</span>
+          <span>${safeFilename}</span>
+          <span class="badge-tag ${badgeClass}">${safeBadge}</span>
         </div>
         <div class="fw-meta" style="margin-top: 4px;">
-          <span>Целевая память: <b>${fw.target_nand || 'Phison / SMI'}</b></span>
-          <span>Размер: ${fw.size_str}</span>
-          ${fw.generation ? `<span>Серия: ${fw.generation}</span>` : ''}
+          <span>Целевая память: <b>${safeTargetNand}</b></span>
+          <span>Размер: ${safeSizeStr}</span>
+          ${safeGen ? `<span>Серия: ${safeGen}</span>` : ''}
           ${fw.size_supported === false ? `<span style="color:#f87171;">Размер не поддерживается сборщиком S11</span>` : ''}
           ${fw.is_local && fw.vendor === 'Phison' && !fw.header_type ? `<span style="color:#fbbf24;">Заголовок нужно выбрать вручную</span>` : ''}
         </div>
