@@ -26,6 +26,8 @@ cmd = [
     "--add-data", f"{os.path.join(BASE_DIR, 'tools_and_fw_catalog.json')};.",
     "--hidden-import=re",
     "--hidden-import=re._constants",
+    "--hidden-import=token",
+    "--hidden-import=tokenize",
     "--hidden-import=webview",
     "--hidden-import=bottle",
     "--hidden-import=proxy_tools",
